@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  konga:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-14T20:31:38.395944851Z"
+    description: A Helm chart for Kubernetes to install Konga
+    digest: 1212a7ad53e82d71deb2a5b9f589b60ff371d0da50da08b3e51fb6ca4f6b27f9
+    name: konga
+    type: application
+    urls:
+    - https://github.com/Chalukya-Sentieo/Konga-Helm/releases/download/konga-0.2.0/konga-0.2.0.tgz
+    version: 0.2.0
   konga-install:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/Chalukya-Sentieo/Konga-Helm/releases/download/konga-install-0.1.0/konga-install-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-14T11:03:51.908657751Z"
+generated: "2022-06-14T20:31:38.395950751Z"
